@@ -25,6 +25,7 @@ h3{
 }
 
 p{
+    line-height: 16px;
     margin: 14px 0 0 0;
 }
 
@@ -47,7 +48,7 @@ span{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2,1fr);
-    gap: 10px;
+    gap: 20px;
 
     width: 80vw;
     margin: 15vh auto;
@@ -85,6 +86,7 @@ span{
 /* alto destra */
 
 .item-3{
+    color: black;
     background-color: white;
     grid-row: span 2; 
 }
