@@ -1,3 +1,5 @@
+/* generali */
+
 *{
     margin: 0;
     padding: 0;
@@ -7,9 +9,39 @@
 body{
     color: white;
     background-color:#D8D9DD ;
-    font-size: 13px;
+    font-size: 12px;
     font-family: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
 }
+
+/* Regole testo */
+
+.text_black{
+    color:black
+}
+
+h3{
+    line-height: 18px;
+    margin-top: 16px;
+}
+
+p{
+    margin: 14px 0 0 0;
+}
+
+img{
+    float: left;
+    border: 2px solid white;
+    max-width: 40px;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+
+span{
+    font-size: 10px;
+    vertical-align: sub;
+}
+
+/* Contenitore griglia */
 
 .container_grid{
     display: grid;
@@ -21,31 +53,52 @@ body{
     margin: 15vh auto;
 }
 
+/* Item contenitore griglia */
+
 .item{
     border-radius: 10px;
-    height: 200px;
     background-color: red;
+
+    padding: 30px;
 }
+
+/* alto sinistra */
 
 .item-1{
     background-color: hsl(263, 55%, 52%);
+    background-image: url(../img/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 80%;
     grid-column: span 2;
 }
+
+.item-1 img{
+    border: 2px solid hsl(264, 82%, 80%);
+}
+
+/* alto centrale */
 
 .item-2{
     background-color:#49556B;
 }
+
+/* alto destra */
 
 .item-3{
     background-color: white;
     grid-row: span 2; 
 }
 
+/* basso sinistra */
+
 .item-4{
      background-color: white;
 }
+
+/* basso centrale */
 
 .item-5{
     background-color: #191F2D;
     grid-column: span 2;
 }
+
