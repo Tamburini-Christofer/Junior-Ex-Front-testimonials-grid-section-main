@@ -13,20 +13,17 @@ body{
     font-family: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
 }
 
-/* Regole testo */
-
-.text_black{
-    color:black
-}
 
 h3{
+    font-weight: 500;
+    font-size: 20px;
     line-height: 18px;
-    margin-top: 16px;
+    margin-top: 20px;
 }
 
 p{
     line-height: 16px;
-    margin: 14px 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 img{
@@ -86,7 +83,7 @@ span{
 /* alto destra */
 
 .item-3{
-    color: black;
+    color: hsl(224, 10%, 45%);
     background-color: white;
     grid-row: span 2; 
 }
@@ -94,6 +91,7 @@ span{
 /* basso sinistra */
 
 .item-4{
+    color: hsl(224, 10%, 45%);;
      background-color: white;
 }
 
