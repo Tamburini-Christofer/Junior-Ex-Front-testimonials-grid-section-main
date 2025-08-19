@@ -6,19 +6,46 @@
 
 body{
     color: white;
+    background-color:#D8D9DD ;
     font-size: 13px;
     font-family: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
 }
 
 .container_grid{
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
 
     width: 80vw;
-    height: 70vh;
     margin: 15vh auto;
-    background-color: burlywood;
 }
 
 .item{
-    color: red;
+    border-radius: 10px;
+    height: 200px;
+    background-color: red;
+}
+
+.item-1{
+    background-color: hsl(263, 55%, 52%);
+    grid-column: span 2;
+}
+
+.item-2{
+    background-color:#49556B;
+}
+
+.item-3{
+    background-color: white;
+    grid-row: span 2; 
+}
+
+.item-4{
+     background-color: white;
+}
+
+.item-5{
+    background-color: #191F2D;
+    grid-column: span 2;
 }
